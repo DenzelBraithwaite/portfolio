@@ -60,12 +60,39 @@ ul {
     list-style: none;
 }
 
-/* Color palette
+/* COLOR PALETTE
 Font: #2D2D2D
 Background: #B1CEC9
 Background_light: #BFDBD6
 accent: #B1958F
 */
+
+.grid-container {
+    display: grid;
+    /* grid-template-columns: repeat(2, 55px) 1fr; */
+    grid-template-columns: 55px 55px 1fr;
+    grid-template-rows: 5vh 1fr;
+}
+
+nav {
+    text-align: center;
+    background-color: rebeccapurple;
+    grid-row: 1;
+    grid-column: 1 / -1;
+    /* order: 1; */
+}
+
+.grid-col-1 {
+    background-color: orange;
+    grid-column: 1;
+    grid-row: 2 / -1;
+}
+
+.grid-col-2 {
+    background-color: yellow;
+    grid-column: 2;
+    grid-row: 2 / -1;
+}
 
 .social-icon {
     width: 24px;
