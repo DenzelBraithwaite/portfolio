@@ -1,0 +1,36 @@
+.navbar {
+    position: relative;
+    border-bottom: 2px solid #b1958f;
+    margin-bottom: 140px;
+}
+
+.nav-menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.nav-social {
+    position: absolute;
+    bottom: 0;
+    width: 32px;
+}
+
+.nav-linkedin {
+    left: 8px;
+}
+
+.linkedin-line {
+    display: none;
+}
+
+.nav-github {
+    left: 48px;
+}
+
+.github-line {
+    display: none;
+}

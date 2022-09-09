@@ -1,0 +1,31 @@
+.hero-section {
+    position: relative;
+    padding-bottom: 300px;
+}
+
+.hero-section h1 {
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 24px;
+}
+
+.hero-section h2 {
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.hero-section p {
+    font-size: 20px;
+}
+
+.hero-section-content {
+    text-align: center;
+}
+
+.illustration--adventure {
+    width: 30%;
+    position: absolute;
+    right: 5%;
+    top: 0;
+}
