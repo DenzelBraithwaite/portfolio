@@ -72,26 +72,41 @@ accent: #B1958F
     /* grid-template-columns: repeat(2, 55px) 1fr; */
     grid-template-columns: 55px 55px 1fr;
     grid-template-rows: 5vh 1fr;
+    row-gap: 80px;
 }
 
 nav {
-    text-align: center;
-    background-color: rebeccapurple;
     grid-row: 1;
     grid-column: 1 / -1;
-    /* order: 1; */
+    border-bottom: 2px solid #b1958f;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-weight: bold;
+}
+
+.header-content {
+    text-align: center;
 }
 
 .grid-col-1 {
+    position: relative;
     background-color: orange;
     grid-column: 1;
     grid-row: 2 / -1;
+    text-align: center;
 }
 
 .grid-col-2 {
+    position: relative;
     background-color: yellow;
     grid-column: 2;
     grid-row: 2 / -1;
+    text-align: center;
 }
 
 .social-icon {
@@ -99,13 +114,25 @@ nav {
 }
 
 .avatar {
-    width: 100px;
+    width: 10%;
+    /* border: 2px solid rebeccapurple; */
+    /* border-radius: 50%; */
 }
 
 .avatar--small {
-    width: 48px;
+    width: 5vh;
 }
 
 .illustration--adventure {
     width: 200px;
+}
+
+.line {
+    background-color: red;
+    border: none;
+    transform: rotate(90deg);
+    width: 10vh;
+    height: 30px;
+    position: absolute;
+    top: 0;
 }
