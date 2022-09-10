@@ -1,0 +1,30 @@
+.footer-content {
+    display: grid;
+    position: absolute;
+    bottom: 100px;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-items: center;
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+.footer-social {
+    width: 32px;
+}
+
+.footer-linkedin {
+    justify-self: start;
+}
+
+.footer-github {
+    justify-self: end;
+}
+
+.footer-email {
+    grid-column: 1 / -1;
+}
+
+.footer-copyright {
+    grid-column: 1 / -1;
+}

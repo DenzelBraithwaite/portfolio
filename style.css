@@ -100,11 +100,11 @@ accent: #B1958F
     height: 152px;
 }
 
-.section-curve .header-shape-fill {
+.section-curve .light-shape-fill {
     fill: #bfdbd6;
 }
 
-.section-curve .projects-shape-fill {
+.section-curve .dark-shape-fill {
     fill: #b1cec9;
 }
 
@@ -157,7 +157,8 @@ img {
 }
 
 .illustration--resume {
-    width: 50%;
+    width: 70%;
+    min-width: 400px;
 }
 
 .see-more {
@@ -175,9 +176,24 @@ img {
 
 .about-section {
     text-align: center;
+    padding-bottom: 300px;
 }
 
 .about-title {
     font-size: 50px;
     padding-bottom: 60px;
+}
+
+.resume-section {
+    background-color: #bfdbd6;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.resume-section h2 {
+    font-size: 50px;
+}
+
+footer {
+    height: 0;
 }
