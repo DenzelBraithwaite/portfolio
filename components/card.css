@@ -41,3 +41,26 @@
 .card--4 {
     background-image: url(../assets/alkhemikal.webp);
 }
+
+.about-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    min-width: 70%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.about-img {
+    border-radius: 16px;
+    max-width: 40%;
+}
+
+.about-text {
+    width: 60%;
+    border-radius: 16px;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.2);
+    background-color: #b1958fbe;
+    padding: 12% 0;
+    transform: translate(-5%);
+}
