@@ -113,9 +113,10 @@ accent: #B1958F
 }
 
 .projects-section {
-    padding-top: 80px;
+    position: relative;
     background-color: #bfdbd6;
     text-align: center;
+    padding-bottom: 400px;
 }
 
 .projects-section > h2 {
@@ -135,8 +136,8 @@ accent: #B1958F
 /* Temporary, for visual aid during styling */
 section {
     position: relative;
-    border-bottom: 3px solid red;
-    border-top: 3px solid orange;
+    /* border-bottom: 3px solid red; */
+    /* border-top: 3px solid orange; */
     /* margin: 100px 0; */
 }
 
@@ -147,9 +148,26 @@ img {
 /* if shape divider app doesn't work well, make eclipses */
 
 .illustration--project {
-    width: 50%;
+    width: 30%;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: -35vh;
 }
 
 .illustration--resume {
     width: 50%;
+}
+
+.see-more {
+    display: inline-block;
+    text-decoration: none;
+    color: #2d2d2d;
+    font-size: 32px;
+    margin-top: 100px;
+}
+
+.see-more:hover {
+    text-decoration: underline;
+    text-decoration-color: #b1958f;
 }
