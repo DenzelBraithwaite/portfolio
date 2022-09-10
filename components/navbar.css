@@ -1,7 +1,10 @@
 .navbar {
-    position: relative;
+    z-index: 10;
+    position: fixed;
+    background-color: #b1cec9e1;
+    top: 0;
+    width: 100%;
     border-bottom: 2px solid #b1958f;
-    margin-bottom: 140px;
 }
 
 .nav-menu {
@@ -9,14 +12,40 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 24px;
     font-weight: bold;
+}
+
+.nav-menu a:link,
+.nav-menu a:visited {
+    color: #2d2d2d;
+    font-size: 18px;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+}
+
+.nav-menu a:hover,
+.nav-menu a:active {
+    /* text-decoration: underline; */
+    /* text-decoration-color: #b1958f; */
+
+    color: #b1958f;
+    transition: color 0.1s ease-out;
 }
 
 .nav-social {
     position: absolute;
     bottom: 0;
     width: 32px;
+
+    transition: fill 0.1s ease-in;
+}
+
+.nav-social:hover,
+.nav-social:active {
+    transition: fill 0.2s ease-out;
+    fill: #b1958f;
 }
 
 .nav-linkedin {

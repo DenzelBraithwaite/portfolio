@@ -21,8 +21,12 @@
         <header class="hero-section">
             <nav class="navbar">
                 <ul class="nav-menu">
-                    <li>Home</li>
-                    <li>Projects</li>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
                     <li>
                         <img
                             class="avatar--small"
@@ -30,8 +34,12 @@
                             alt="Cartoon version of myself, Denzel."
                         />
                     </li>
-                    <li>Resume</li>
-                    <li>About</li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#resume">Resume</a>
+                    </li>
                 </ul>
                 <div>
                     <hr class="linkedin-line" />
@@ -412,13 +420,29 @@
             </div>
         </header>
         <main>
-            <section class="projects-section">
+            <section id="projects" class="projects-section">
                 <h2>Projects</h2>
                 <div class="container projects">
-                    <div class="card card--1"></div>
-                    <div class="card card--2"></div>
-                    <div class="card card--3"></div>
-                    <div class="card card--4"></div>
+                    <a
+                        href="https://troopl.com/denzelbraithwaite/frontend-mentor-mimic"
+                        target="_blank"
+                        class="card card--1"
+                    ></a>
+                    <a
+                        href="https://troopl.com/denzelbraithwaite/food4all"
+                        target="_blank"
+                        class="card card--2"
+                    ></a>
+                    <a
+                        href="https://troopl.com/denzelbraithwaite/pokemondo"
+                        target="_blank"
+                        class="card card--3"
+                    ></a>
+                    <a
+                        href="https://troopl.com/denzelbraithwaite/alkhemikal"
+                        target="_blank"
+                        class="card card--4"
+                    ></a>
                     <svg
                         class="illustration--project"
                         xmlns="http://www.w3.org/2000/svg"
@@ -554,7 +578,12 @@
                         </g>
                     </svg>
                 </div>
-                <a class="see-more" href="#">See more</a>
+                <a
+                    class="see-more"
+                    href="https://troopl.com/denzelbraithwaite"
+                    target="_blank"
+                    >See more</a
+                >
                 <div class="section-curve">
                     <svg
                         data-name="Layer 1"
@@ -569,7 +598,7 @@
                     </svg>
                 </div>
             </section>
-            <section class="about-section">
+            <section id="about" class="about-section">
                 <div class="container">
                     <h2>About</h2>
                     <div class="about-wrapper">
@@ -589,7 +618,7 @@
             </section>
             <section class="resume-section">
                 <div class="container">
-                    <h2>Resume</h2>
+                    <h2 id="resume">Resume</h2>
                     <svg
                         class="illustration--resume"
                         xmlns="http://www.w3.org/2000/svg"
