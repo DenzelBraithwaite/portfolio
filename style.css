@@ -56,6 +56,10 @@ video {
     border: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     line-height: 1;
     color: #2d2d2d;
@@ -75,42 +79,6 @@ Background: #B1CEC9
 Background_light: #BFDBD6
 accent: #B1958F
 */
-
-/* @media (max-width: 690px) {
-    .projects {
-        grid-template-columns: 1fr;
-    }
-
-    .card {
-        padding: 25% 40%;
-    }
-
-    .card--4 {
-        display: none;
-    }
-
-    .illustration--project {
-        position: absolute;
-        transform: translate(0, -12%);
-        background-color: rebeccapurple;
-    }
-
-    .see-more {
-        padding-top: 20px;
-        color: rebeccapurple;
-        background-color: orange;
-    }
-}
-
-@media (max-width: 360px) {
-    .nav-menu {
-        display: none;
-    }
-
-    .nav-social {
-        display: block;
-    }
-} */
 
 .container {
     position: relative;
