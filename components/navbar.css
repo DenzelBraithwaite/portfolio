@@ -36,10 +36,9 @@
 
 .nav-social {
     position: absolute;
+    fill: #2d2d2d;
     bottom: 0;
     width: 32px;
-    /* transform: translate(200px, 0); */
-
     transition: fill 0.1s ease-in;
 }
 

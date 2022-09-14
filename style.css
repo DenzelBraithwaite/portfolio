@@ -221,7 +221,7 @@ footer {
     }
 
     .see-more {
-        margin-top: 230px;
+        margin-top: 320px;
     }
 
     .nav-social {
@@ -255,7 +255,7 @@ footer {
     }
 
     .see-more {
-        margin-top: 160px;
+        margin-top: 220px;
     }
 
     .about-img {
@@ -264,6 +264,6 @@ footer {
 
     .about-text {
         width: 80%;
-        transform: translate(0, -2%);
+        transform: translate(0, -4%);
     }
 }
