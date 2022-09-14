@@ -16,6 +16,11 @@
     font-weight: bold;
 }
 
+.avatar--small {
+    width: 32px;
+    transform: translate(0, 30%);
+}
+
 .nav-menu a:link,
 .nav-menu a:visited {
     color: #2d2d2d;
